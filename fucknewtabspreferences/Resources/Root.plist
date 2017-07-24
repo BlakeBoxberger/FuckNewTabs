@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.neinzedd9.FuckNewTabs</string>
+			<key>key</key>
+			<string>enableSwitch</string>
+			<key>label</key>
+			<string>Disable New Tab Button in Safari</string>
+			<key>PostNotification</key>
+    	<string>com.neinzedd9.FuckNewTabs/ReloadPrefs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+      <string>PSGroupCell</string>
+      <key>footerText</key>
+      <string>Plus icon by Setyo Ari Wibowo from the Noun Project</string>
+    </dict>
+		<dict>
+    	<key>big</key>
+    	<true/>
+    	<key>cellClass</key>
+    	<string>HBTwitterCell</string>
+    	<key>height</key>
+    	<integer>56</integer>
+    	<key>label</key>
+    	<string>NeinZedd9</string>
+    	<key>user</key>
+    	<string>neinzedd9</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>FuckNewTabs</string>
+</dict>
+</plist>
